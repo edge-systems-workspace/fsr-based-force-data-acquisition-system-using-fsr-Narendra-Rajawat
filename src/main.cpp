@@ -32,19 +32,19 @@ void loop() {
 
     // TODO 6:
     // Print raw ADC value
-    // Serial.print("FSR Raw Value: ");
-    // Serial.println(fsrValue);
+    Serial.print("FSR Raw Value: ");
+    Serial.println(fsrValue);
 
     // TODO 7:
     // Apply simple threshold logic (detect pressure)
-    // if (fsrValue > 100) {
-    //
-    //     // TODO 8:
-    //     // Print pressure detection message
-    //     Serial.println("Pressure Detected!");
-    // } else {
-    //     Serial.println("No Pressure");
-    // }
+    if (fsrValue > 100) {
+
+        // TODO 8:
+        // Print pressure detection message
+        Serial.println("Pressure Detected!");
+    } else {
+        Serial.println("No Pressure");
+    }
 
     // TODO 9:
     // Add delay (1 second)
